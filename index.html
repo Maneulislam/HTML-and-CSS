@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+
+    <style>
+        p{
+            background-color: aqua;
+            width: 50%;
+        }
+
+        li{
+            color: red;
+        }
+
+        /* Using Id and Class */
+
+        .intro{
+            text-align: right;
+        }
+
+        #headline{
+            color: blue;
+            text-align: center;
+            
+        }
+
+        span{
+            color: cadetblue;
+        }
+
+        input[type=text]{
+            color: brown;
+        }
+
+
+        .blog{
+            background-color: aqua;
+            width: 50%;
+            text-align: center;
+            border: 20px solid tomato;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 10px;
+            padding-right: 0;
+            box-shadow: 10px 10px 10px black;
+
+        }
+
+        .bg-p{
+            background-image: url('https://tds-images.thedailystar.net/sites/default/files/styles/big_202/public/images/2024/10/24/afran_nisho.jpg');
+
+            width: 900px;
+            height: 500px;
+            background-size:cover;
+            /* background-repeat:; */
+            
+        }
+
+        .lorem{
+            border: 2px solid black;
+            padding: 10px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+
+    <a href="https://web.programming-hero.com/update-1/video/update-1-1-5-html-link-creating-links-with-the-anchor-tag-and-its-attributes-href-target-" target="blank">Programming Hero</a>
+    <br><br>
+
+
+    <div>
+        <img src="AirBrush_20230107222916-01-01-01-01.jpeg" alt="" width="100" height="130">
+        <br>
+        <br>
+
+        <img src="https://tds-images.thedailystar.net/sites/default/files/styles/big_202/public/images/2024/10/24/afran_nisho.jpg" alt="" width="100" height="80">
+    </div>
+    
+
+    <div>
+        <h2>Input Form</h2>
+
+        <input type="text" placeholder="text">
+        <br>
+        <input type="email" placeholder="email" name="" id="">
+        <br>
+        <input type="password" placeholder="password" name="" id="">
+        <br>
+        <input type="checkbox" name="" id="">
+    </div>
+
+
+    <div>
+        <h2 id="headline"><span>Cascading</span> Style Sheets</h2>
+
+        <p class="intro">CSS is the language we use to style an HTML document.</p>
+        <p class="intro">CSS describes how HTML elements should be displayed.</p>
+        <p class="intro">This tutorial will teach you CSS from basic to advanced.</p>
+
+        <ul>
+            <li>Inline</li>
+            <li>Internal</li>
+            <li>External</li>
+        </ul>
+
+
+    </div>
+
+    <div>
+        <div class="blog"> 
+            <h3>My First Blog</h3>
+
+            <p><span class="lorem">Lorem ipsum dolor</span>, sit amet consectetur adipisicing elit. Minima laborum velit numquam officia vitae! Odio porro enim illo ullam quis tempore possimus numquam, quidem harum, repellendus eaque? Sit, itaque assumenda!</p>
+        </div>
+
+        <div class="blog">
+            <h3>My Second Blog</h3>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima laborum velit numquam officia vitae! Odio porro enim illo ullam quis tempore possimus numquam, quidem harum, repellendus eaque? Sit, itaque assumenda!</p>
+        </div>
+
+        <div class="blog">
+            <h3>My Third Blog</h3>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima laborum velit numquam officia vitae! Odio porro enim illo ullam quis tempore possimus numquam, quidem harum, repellendus eaque? Sit, itaque assumenda!</p>
+        </div>
+        
+    </div>
+
+    <div class="bg-p">
+        <h2>Welcome to My Website</h2>
+    </div>
+</body>
+</html>
