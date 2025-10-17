@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+    <style>
+
+        h2{
+            text-align: center;
+            font-size: 50px;
+        }
+        .parent{
+            background-color: antiquewhite;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+            justify-content:space-around;
+            height: 400px;
+            align-items: center;
+            /* flex-direction: column; */
+            
+
+        }
+
+        .child{
+            background-color: aqua;
+            border: 2px;
+            padding: 10px;
+            margin: 5px;
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Flex</h2>
+    <section class="parent">
+        <div class="child">Child-1</div>
+        <div class="child">Child-2</div>
+        <div class="child">Child-3</div>
+        <div class="child">Child-4</div>
+        <div class="child">Child-5</div>
+        <div class="child">Child-6</div>
+    </section>
+</body>
+</html>
